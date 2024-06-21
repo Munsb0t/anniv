@@ -1,0 +1,169 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.app
+{
+    background-color:#f3e7ed;
+    width:90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding:30px;
+    
+}
+
+.app h1{
+    font-size: 30px;
+    font-weight:600;
+    color: hsla(30, 51%, 15%, 0.842);
+    border-bottom: 1px solid #333 ;
+    padding-bottom: 34px;
+}
+
+.quiz
+{
+    padding: 20px 0;
+}
+
+.quiz h2{
+
+    font-size:20px;
+    color:#d49331;
+    font-weight: 400;
+}
+
+.btn
+{
+    background-color:#fce1a1;
+    color: black;
+    font-weight: 500;
+    width:100%;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover:not([disabled])
+{
+    background: #F7A647;
+    color: rgb(5, 1, 1);
+}
+.btn:disabled
+{
+    cursor: no-drop;
+}
+
+
+
+
+#next-btn{
+    
+    background-color: #ECC773;
+    color: black;
+    font-weight: 500;
+    width: 150px;
+    border:0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct{
+    background: rgb(98, 158, 113);
+}
+.incorrect
+{
+    background-color: rgb(117, 65, 65);
+}
+
+
+
+
+
+
+#gif4
+{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%; /* Ensure it fills the container */
+    height: 100%; /* Ensure it fills the container */
+    z-index: -1;
+    display: none;
+
+    background-image: url(https://i.pinimg.com/originals/2f/52/c4/2f52c49117a3a3eecebe31cf5ee4306e.gif);
+}
+
+    
+#gif5
+{
+    background-image: url(https://gifdb.com/images/high/breaking-up-heartbroken-milk-bear-sdsbnuzlmint6aqa.gif);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%; /* Ensure it fills the container */
+    height: 100%; /* Ensure it fills the container */
+    z-index: -1;
+    display: none;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-blend-mode: darken, luminosity;
+}
+
+    
+
+#hover-image1, #hover-image2, #hover-image3, #hover-image4
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%; /* Ensure it fills the container */
+    height: 100%; /* Ensure it fills the container */
+    z-index: -1;
+    display: none;
+   
+    background-repeat: no-repeat;
+    transition: opacity 250ms step-end;
+    transition: ease-in-out;
+    
+}
+
+#hover-image1
+{
+    background-image: url(https://ugokawaii.com/wp-content/uploads/2022/11/angry-dog.gif);
+    background-position: bottom left;
+}
+
+#hover-image2
+{ background-image: url(https://i.pinimg.com/originals/c9/ca/85/c9ca850a86ce32d053a27a1352b523b3.gif);
+    background-position: right bottom;
+
+}
+
+#hover-image3
+{
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2lidHd2OGFqb3plcGgya3gydm0zb2ZqYmZ1dzVqdjkyaGdkZGhqeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/WCHEow6rj81cteHk2Y/giphy.webp);
+  background-position: top right;
+}
+
+#hover-image4
+{
+    background-image: url(https://i.giphy.com/cOi4jFWQBBjBSLPWl6.webp);
+    background-position: bottom left;
+}
